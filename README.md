@@ -29,26 +29,6 @@ Aplicația utilizează PHP împreună cu XAMPP pentru interacțiunea dintre util
 3. Implementarea operațiilor CRUD și a interfețelor web folosind HTML și Bootstrap
 4. Validarea datelor introduse și gestionarea corespunzătoare a erorilor
 
-## Instalare și rulare
-1. Clonează repository-ul:
-```bash
-git clone https://github.com/user/student-course-php.git
-```
-
-2. Configurează XAMPP:
-- Instalează XAMPP și pornește Apache și MySQL din panoul de control XAMPP.
-
-3. Configurează baza de date MySQL:
-- Creează baza de date folosind scriptul furnizat (`edu_track.sql`).
-- Actualizează fișierul PHP cu informațiile conexiunii MySQL (nume bază de date, utilizator, parolă).
-
-4. Rulează aplicația:
-- Mută folderul aplicației în directorul `htdocs` al XAMPP.
-- Accesează aplicația în browser folosind adresa:
-```
-http://localhost/studentscoursesmanagement/
-```
-
 ---
 
 Web Interface for Student and Course Management
@@ -76,24 +56,4 @@ The web application uses PHP with XAMPP for backend interactions with the MySQL 
 2. Web application development in PHP using XAMPP for database connectivity
 3. Web interfaces and CRUD functionalities using HTML and Bootstrap
 4. Implementing data validation and error handling for user inputs
-
-## Installation and Running
-1. Clone the repository:
-```bash
-git clone https://github.com/user/student-course-management-php.git
-```
-
-2. Set up XAMPP:
-- Install and start XAMPP, ensuring Apache and MySQL services are running.
-
-3. Configure MySQL database:
-- Create the database using the provided SQL script (`edu_track.sql`).
-- Update the PHP files with your MySQL database connection details.
-
-4. Run the application:
-- Place the PHP files into the XAMPP `htdocs` folder.
-- Open your browser and navigate to:
-```
-http://localhost/student-course-management/
-```
 
